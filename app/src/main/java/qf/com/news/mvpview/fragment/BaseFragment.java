@@ -17,6 +17,7 @@ public class BaseFragment extends Fragment{
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         TextView textView = new TextView(getContext());
+        textView.setText("1111");
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 }
